@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  width: 550px;
+  height: auto;
+  background-color: #ffffff;
+  margin: 1% auto;
+  padding-bottom: 1%;
+  border-radius: 8.95px;
+}
+
+nav {
+  height: 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.logo {
+  width: 83px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5%;
+}
+.hero_photo {
+  width: 395.91px;
+  height: 232px;
+  align-self: center;
+}
+
+.hero_text {
+  padding: 6%;
+}
+
+.hero_text h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.hero_text p {
+  width: 320px;
+  font-size: 16px;
+  color: #222222;
+}
+
+.card {
+  width: 176px;
+  position: relative;
+}
+
+.card img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card-info {
+  width: 176px;
+  height: 58px;
+  font-size: 12px;
+  color: #222222;
+  margin-bottom: 10%;
+}
+
+.card-info img {
+  width: 14px;
+  height: 14px;
+}
+
+.cards-section {
+  margin: 0 6%;
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(165, 164, 164); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.card-badge {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  padding: .5% 3%;
+  font-size: 11px;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 2px;
+
+}
