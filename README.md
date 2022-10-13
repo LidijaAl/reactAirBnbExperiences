@@ -1,6 +1,6 @@
 # React -- AirBnb Experiences
 
-This is an AirBnb Experiences clone made in React JS.
+This is an AirBnb Experiences clone made with React JS.
 
 ## Table of contents
 
